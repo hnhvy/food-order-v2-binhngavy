@@ -149,8 +149,9 @@
                     //Check whether query executed successfully or not
                     echo("Debug");
                     echo($res2);
+                    echo(mysqli_error($conn));
                     echo("\n");
-                    return $res2;
+                    return;
                     if($res2==true)
                     {
                         //Query Executed and Order Saved
