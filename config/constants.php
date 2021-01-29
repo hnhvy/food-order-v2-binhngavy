@@ -10,8 +10,8 @@
     define('DB_PASSWORD', 'in177XPtDOfHo4');
     define('DB_NAME', 'webhci_ce_2');
     
-    $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error("")); //Database Connection
-    $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error("")); //SElecting Database
+    $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error("Error conn var")); //Database Connection
+    $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error("Error db_select var")); //SElecting Database
 
 
 ?>

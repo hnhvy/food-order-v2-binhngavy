@@ -147,6 +147,7 @@
                     $res2 = mysqli_query($conn, $sql2);
 
                     //Check whether query executed successfully or not
+                    echo($res2);
                     if($res2==true)
                     {
                         //Query Executed and Order Saved
