@@ -57,7 +57,7 @@ th, td {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 45px;
+    border-radius: 15px;
     margin-left: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
@@ -72,7 +72,7 @@ th, td {
     text-decoration: none;
     font-weight: bold;
     margin-left: 15px;
-    border-radius: 45px;
+    border-radius: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .btn-secondary1{
@@ -82,7 +82,7 @@ th, td {
     text-decoration: none;
     font-weight: bold;
     margin-left: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .btn-secondary2{
@@ -92,7 +92,7 @@ th, td {
     text-decoration: none;
     font-weight: bold;
     margin-left: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .btn-secondary:hover{
@@ -105,7 +105,7 @@ th, td {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 45px;
+    border-radius: 15px;
     margin-left: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
@@ -115,7 +115,7 @@ th, td {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 
@@ -186,7 +186,7 @@ th, td {
 }
 .status-ordered{
     background-color:#1076b9;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 13px;
     padding: 8px;
     color: white;
@@ -194,7 +194,7 @@ th, td {
 .status-ondelivery{
 
     background-color:#0eb352;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-top: 8px;
     font-size: 13px;
     padding-left: 2px;
@@ -205,7 +205,7 @@ th, td {
 .status-delivery{
 
     background-color:#ff8c09;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 13px;
     padding: 8px;
     color: white;
@@ -213,7 +213,7 @@ th, td {
 .status-cancel{
     font-size: 13px;
     background-color:#ff0909;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 8px;
     color: white;
 }
