@@ -149,7 +149,8 @@
                     //Check whether query executed successfully or not
                     echo("Debug");
                     echo($res2);
-                    exit();
+                    echo("\n");
+                    return $res2;
                     if($res2==true)
                     {
                         //Query Executed and Order Saved
