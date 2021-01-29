@@ -147,7 +147,6 @@
                     $res2 = mysqli_query($conn, $sql2);
 
                     //Check whether query executed successfully or not
-                    return;
                     if($res2==true)
                     {
                         //Query Executed and Order Saved
@@ -157,10 +156,7 @@
                     else
                     {
                         //Failed to Save Order
-                        $_SESSION['order'] = "
-                        <div class='error text-center'>Failed to Order Food.</div>
-                         + </br> Error: " .mysqli_error($conn);
-                        
+                        $_SESSION['order'] = "<div class='error text-center'>Failed to Order Food.</div> </br> Error: " .mysqli_error($conn);
                         header('location:'.SITEURL);
                     }
 
