@@ -1,4 +1,18 @@
+<style>
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
 <?php include('partials/menu.php'); ?>
+<style>
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
 
 <link rel="stylesheet" href="../css/update.css">
 
