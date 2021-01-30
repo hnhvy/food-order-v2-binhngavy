@@ -34,7 +34,7 @@ unset($_SESSION['no-login-message']);
 Username: <br>
 <input style="text-align: left; width:100%" type="text" class="fadeIn second" name="username" placeholder="usermane"><br><br>
 Password: <br>
-<input style="text-align: left; width:100%" type="text" id="password" class="fadeIn third" name="password" placeholder="password"><br><br>
+<input style="text-align: left; width:100%" type="password" id="password" class="fadeIn third" name="password" placeholder="password"><br><br>
 <center>
 <input type="submit" name="submit" value="Login" class="btn-primary">
 </center>
@@ -58,7 +58,7 @@ if(isset($_POST['submit']))
 //Process for Login
 //1. Get the Data from Login form
 $username = $_POST['username'];
-$password = ($_POST['password']);
+$password = md5($_POST['password']);
 
 //2. SQL to check whether the user with username and password exists or not
 $sql = "SELECT * FROM tbl_admin WHERE username='$username' AND password='$password'";
